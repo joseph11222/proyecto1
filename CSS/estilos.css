@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    /* titulo principal*/
+    display: block;
+    font-size: 2rem;
+    width: 200px;
+   
+}
+.header{
+    /*para que quede fijo y baje con el scrool*/
+    position: sticky;top: 0;
+}
+
+.padreNavHeader{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: black;
+  
+}
+.listaNav{
+    list-style: none;
+
+}
+.listaItem{
+    display: inline-block;
+    padding-right: 3rem;
+
+}
+.listaItem a{
+    text-decoration: none;
+    color: white;
+}
+.padreBanner{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.parrafoPrincipal{
+    /*texto en el inicio al lado de la foto*/
+    font-size: 20px;
+    line-height: 1.2em;
+}
+.imagenPrincipal{
+    width: 10px;
+   height: 10px;
+    
+}
+.footer{
+    /*footer con contenido*/
+background-color: black;
+width: 100%;
+text-decoration: none;
+text-align: center;
+color: white;
+}
+.galeria{
+    width: 300%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    gap: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.galeria .hijoGaleria{
+    width: 1%;
+    height: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.hijoGaleria img{
+    width: 1000%;
+    height: 60%;
+}
+.body{
+    overflow: scroll;
+}
+
+
+
